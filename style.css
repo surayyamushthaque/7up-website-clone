@@ -1,0 +1,287 @@
+*{
+    margin: 0%;
+    padding:0%
+    
+}
+.navbar  {
+    background-color:salmon;
+    
+    height: 98px;
+   margin: 0;
+    margin-left: 0%;
+    width: 100vw;
+    position: fixed;
+    z-index: 999;
+}
+.navbar p{
+    color: rgb(255, 255, 255);
+    padding: left  15px;
+    margin-bottom: 5px;
+    font-size:large;
+    font-weight: 15px;
+    cursor: icon;
+    justify-content: space-between;
+    
+
+    
+}
+.navbar-icon{
+  display: flex;
+  padding-top: 40px;
+  padding-left: 800px;
+  gap: 30px;  
+  width: 800px;
+  font-size: 15px;
+
+  
+}
+.imag{
+    width: 900px;
+    
+}
+
+
+
+.pr p:hover{
+    border-bottom: 2px solid white;
+   
+}
+.rec p:hover{
+    border-bottom: 2px solid white;
+    
+
+}
+.sto p:hover{
+    border-bottom: 2px solid white;
+
+}
+.navbar{
+    display:flex;
+}
+.page1{
+    background-image: url('https://www.7up.com/images/simple-7up/image3.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    margin-top: 2px;
+   
+}
+.page1elements{
+    height: 100%;
+    
+}
+.page1 h1{
+    position:relative ;
+    color: white;
+    margin-left: 10px;
+    padding-top: 200px;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1px;
+    
+
+}
+#seasons{
+    padding-left: 0px;
+    height: 150px;
+    font-size: 60px;
+    margin-top: 1px;
+    
+}
+.page1 button{
+    /* position:absolute; */
+    background: transparent;
+    color:white;
+    border: radius 15px; 
+    border-color: #ffffff;
+    padding-right: 153px;
+
+    
+    
+}
+.page1{
+    margin-bottom: ;
+
+}
+.button1 {
+    padding-left: 50px;
+    font-size: 25px;
+     border-style: ridge;
+     border-radius: 25px;
+     color:white;
+     background:transparent ;
+     margin-left: 25px;
+     width: 140px;
+     font-size: 18px;
+     padding-top: 5px;
+     padding-bottom: 5px;
+     /* padding-right: 80px; */
+     margin: bottom 250px; 
+}
+#strong{
+    /* width: fit-content; */
+}
+.page2{
+    position:relative ;
+background-image:url(https://www.7up.com/images/simple-7up/recipes.jpg) ;
+height: 100vh;
+width:100vw ;
+}
+.page2 {
+    position: relative;
+    
+    background: width 12px;
+    justify-content: center;
+    margin-left: 0%; 
+   padding: bottom 100px;
+
+}
+.page2-box{
+    margin-left: 211px; 
+    padding-right: 25px;
+    color: white;
+    margin-top:  51px;
+    font: size 25px;
+    grid-auto-rows: 12px;
+}
+#h1{
+    margin-bottom:  10px;
+    font-size:  56px; 
+    
+}
+#p1{
+    margin-bottom: 10px;
+    padding-bottom: 15px;
+}
+   
+#b1{
+    border-radius:500px ;
+    width: 180px;
+    color: white;
+    background-color:transparent ;
+    border-color: white;
+    font-weight: 55px;
+    margin-left: 50px;
+    font-size: medium;
+    width: 180px;
+}
+
+.background1{
+    position:absolute;
+    margin-top: 350px;
+    background-color: rgb(8, 52, 8);
+    border-radius: 500px; 
+    opacity:0.7;
+    width: 670px;
+margin-left: 256px;
+height: 215px;
+    padding-right: 12px;
+}
+.background2{
+    position: absolute;
+    background-color: rgb(8, 52, 8);
+    border-radius:  500px; 
+    opacity:0.7;
+    width: 670px;
+    margin-left: 256px;
+    padding-right: 12px;
+    height: 215px;
+    margin-top: 350px;
+    background-image:no repeat ;
+    background-size: cover;
+
+}
+.page3{
+    background-image: url(https://www.7up.com/images/simple-7up/image1.png);
+    height: 100vh;
+    width:100vw;
+    background-position: center;
+    background-size: cover;
+  
+   
+
+}
+#h2{
+    color: white;
+    padding-right:12px;
+    margin-left: 210px;
+    margin-bottom:  10px;
+    font-size:  56px; 
+}
+#p2{
+    color: white;
+    margin-left:110px;
+    padding-top: 10px;
+    font-size: 25px;
+    font-size: 20px;
+   
+}
+#b2{
+    color: white;
+    background-color:transparent ;
+    border-color: white;
+    font-weight: 15px;
+    margin-left: 235px;
+    font-size: 25px;
+    border-radius:500px ;
+    width: 180px;
+    margin-top: 30px;
+}
+
+
+.page3-preborder{
+    
+    height: 70vh;
+    width: 150vw;
+}
+
+.footer{
+    position: relative;
+    display: flex;
+    background-color: black;
+    width: 100vw;
+    height: 30px;
+    color: white;
+    text: indent 50px; 
+    margin-top: 0%;
+}
+.footer-menus{
+    display:flex;
+    text-align:left;
+    gap: 15px;
+    font: size 18px; 
+    padding-right: 80px;
+    margin-left: 275px;
+    padding-top: 10px;
+
+}
+.footer-message p{
+    position: absolute;
+    font-size: small;
+    background-color: black;
+    color: white;
+    margin: top 0px; 
+    padding-bottom: 90px;
+    padding-right: 10px;
+    height: 50px;
+    width: 90%;
+   padding-left: 390px;
+   padding-bottom: 150px;
+   margin-bottom: 52px;
+    
+    
+}
+#button1{
+    
+}
+.navbar img{
+    padding-left: 10px;
+
+    
+}
+#first-img{
+    height: 60px;
+    width: 100px;
+    padding-top: 20px;
+}
